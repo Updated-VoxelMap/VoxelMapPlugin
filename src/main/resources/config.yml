@@ -4,16 +4,23 @@
 #  allowCaves: 'voxelmap.caves'
 # This will only allow cavemaps if the player has the permission voxelmap.caves
 default:
-  # the worldNamePreix is added as prefix wor all worlds. This helps distinguishing maps on servers behind a bunggeecord/velocity proxy
+  # the worldNamePrefix is added as prefix for all worlds. This helps distinguishing maps on servers behind a bunggeecord/velocity proxy
   worldNamePrefix: ''
   # the world name identifies a world where the player is, so the imperfect automatic detection is not required
   sendWorldName: true
+  # if the player can see mobs on the minimap
   allowRadarMobs: true
+  # if the player can see other players on the minimap
   allowRadarPlayers: true
+  # if the minimap will show caves when the player is underground
   allowCaves: true
+  # if the minimap is shown at all
   allowMinimap: true
+  # if the worldmap is available
   allowWorldmap: true
+  # if the player is able to set and see waypoints
   allowWaypoints: true
+  # if a death waypoint can be created when the player dies
   allowDeathWaypoint: true
   # the teleport command is a command that is sent when the player tries to teleport to a location on the world map.
   teleportCommand: ''
