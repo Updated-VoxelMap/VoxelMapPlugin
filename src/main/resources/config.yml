@@ -1,0 +1,25 @@
+# default settings if nothing special is defined for the world.
+# possible values are true, false or any string. When using a string it is checked as permission.
+# Example:
+#  allowCaves: 'voxelmap.caves'
+# This will only allow cavemaps if the player has the permission voxelmap.caves
+default:
+  # the worldNamePreix is added as prefix wor all worlds. This helps distinguishing maps on servers behind a bunggeecord/velocity proxy
+  worldNamePrefix: ''
+  # the world name identifies a world where the player is, so the imperfect automatic detection is not required
+  sendWorldName: true
+  allowRadarMobs: true
+  allowRadarPlayers: true
+  allowCaves: true
+  allowMinimap: true
+  allowWorldmap: true
+  allowWaypoints: true
+  allowDeathWaypoint: true
+  # the teleport command is a command that is sent when the player tries to teleport to a location on the world map.
+  teleportCommand: ''
+
+# you can override the defaults for specific worlds
+
+#worlds:
+#  world:
+#    allowCaves: 'voxelmap.caves' 

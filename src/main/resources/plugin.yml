@@ -1,0 +1,17 @@
+name: VoxelMapPlugin
+
+main: com.github.updatedvoxelmap.plugin.VoxelMapPlugin
+
+version: "1.0.0"
+api-version: 1.13
+
+author: Brokkonaut
+description: VoxelMapPlugin
+
+commands:
+  voxelmapreload:
+    permission: voxelmapplugin.reload
+permissions:
+  voxelmapplugin.reload:
+    default: op
+    description: Allows reloading the plugins config
